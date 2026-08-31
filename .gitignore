@@ -1,0 +1,36 @@
+# Built artifacts
+build/
+.gradle/
+/captures
+.externalNativeBuild
+.cxx
+
+# IDE - IntelliJ IDEA / Android Studio
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/copyright/
+!.idea/compiler.xml
+!.idea/misc.xml
+!.idea/vcs.xml
+!.idea/gradle.xml
+
+# Local configuration files (contains system-specific paths)
+local.properties
+
+# Log Files
+*.log
+
+# OS X
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# Lint
+lint/
