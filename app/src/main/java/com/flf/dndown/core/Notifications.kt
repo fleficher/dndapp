@@ -16,6 +16,7 @@ fun createNotification(context: Context): Notification {
         .setSmallIcon(android.R.drawable.ic_dialog_info)
         .setPriority(NotificationCompat.PRIORITY_LOW)
         .setOngoing(true)
+        .setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE)
         .build()
 }
 

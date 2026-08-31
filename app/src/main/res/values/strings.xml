@@ -5,8 +5,12 @@
     <string name="service_notification_text">Monitoring DND state.</string>
     <string name="toggle_service_on">Start Service</string>
     <string name="toggle_service_off">Stop Service</string>
-    <string name="permission_rationale">This app needs Notification Policy Access to toggle Do Not Disturb mode.</string>
-    <string name="grant_dnd_access">Grant DND Access</string>
-    <string name="battery_optimization_rationale">To work reliably when your phone is not charging, please disable battery optimization for this app.</string>
-    <string name="grant_battery_exemption">Disable Battery Optimization</string>
+    <string name="status_running">Service is running</string>
+    <string name="status_stopped">Service is stopped</string>
+    <string name="app_tagline">Toggles Do Not Disturb when the phone is placed face down</string>
+    <string name="setup_title">Setup</string>
+    <string name="setup_dnd">Do Not Disturb access</string>
+    <string name="setup_notifications">Notification permission</string>
+    <string name="setup_battery">Battery optimization exemption</string>
+    <string name="action_grant">Grant</string>
 </resources>
