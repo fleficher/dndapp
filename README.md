@@ -2,6 +2,10 @@
 
 DnDown is a simple Android utility that automatically enables "Do Not Disturb" (DND) mode when you place your phone face down on a surface, and disables it when you pick it up.
 
+<p align="center">
+  <img src=".github/Screenshot_20260901.png" alt="DnDown main screen" width="300" />
+</p>
+
 ## Features
 
 - **Automatic DND**: Toggles "Do Not Disturb" mode based on device orientation.
@@ -32,7 +36,7 @@ To function correctly, DnDown requires the following permissions:
 
 ## Project Structure
 
-- `app/src/main/java/com/flf/dndown/DnDService.kt`: The core foreground service that manages the lifecycle of the detector and DND state.
+- `app/src/main/java/com/flf/dndown/service/`: The foreground service (`DnDService`) and its running-state tracker.
 - `app/src/main/java/com/flf/dndown/core/`: Contains the logic for face-down detection and system interactions (DND, vibration).
 - `app/src/main/java/com/flf/dndown/ui/`: Jetpack Compose UI components for the main screen.
 
