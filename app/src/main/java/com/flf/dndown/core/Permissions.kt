@@ -8,6 +8,7 @@ import android.os.Build
 import android.os.PowerManager
 import android.provider.Settings
 import androidx.core.content.ContextCompat
+import androidx.core.net.toUri
 
 fun Context.hasDndPermission(): Boolean {
     return notificationManager.isNotificationPolicyAccessGranted
@@ -27,4 +28,11 @@ fun Context.hasPostNotificationsPermission(): Boolean {
 fun Context.isIgnoringBatteryOptimizations(): Boolean {
     val pm = getSystemService(Context.POWER_SERVICE) as PowerManager
     return pm.isIgnoringBatteryOptimizations(packageName)
+}
+
+fun Context.requestBatteryExemption() {
+    val intent = Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).apply {
+        data = "package:$packageName".toUri()
+    }
+    startActivity(intent)
 }

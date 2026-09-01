@@ -5,9 +5,11 @@
     <string name="service_notification_text">Monitoring DND state.</string>
     <string name="toggle_service_on">Start Service</string>
     <string name="toggle_service_off">Stop Service</string>
+    <string name="service_starting">Starting…</string>
     <string name="status_running">Service is running</string>
     <string name="status_stopped">Service is stopped</string>
     <string name="app_tagline">Toggles Do Not Disturb when the phone is placed face down</string>
+    <string name="hint_face_down">Place your phone face down to enable Do Not Disturb</string>
     <string name="setup_title">Setup</string>
     <string name="setup_dnd">Do Not Disturb access</string>
     <string name="setup_notifications">Notification permission</string>
